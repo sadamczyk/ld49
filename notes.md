@@ -29,4 +29,13 @@ ToDos:
 	- etc.
 
 - UI for Health, Attackpower, Movementspeed , just simple icon for everything + number?
-- Enemy attacks: melee on collision, projectile firers etc.
+- Add different enemy types
+  - Ranged attackers
+  - Stronger/charging Melee
+  - Bosses
+  - Add melee swipes, instead of them just running into you?
+
+- Give characters collision boxes, so they dont overlap/stack anymore?
+
+- instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
+	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
