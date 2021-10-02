@@ -18,7 +18,6 @@ Ideas:
 	
 
 ToDos:
-- Attack always points at mouse
 - Type of attack/effect randomizes:
 	- Have a little indicator/icon for everything, which also shows where you are aiming!
 	
