@@ -2,9 +2,12 @@
   "resources": [
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sFireCone","path":"sprites/sFireCone/sFireCone.yy",},"order":3,},
+    {"id":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},"order":1,},
+    {"id":{"name":"GameOverObject","path":"objects/GameOverObject/GameOverObject.yy",},"order":4,},
     {"id":{"name":"oFireball","path":"objects/oFireball/oFireball.yy",},"order":3,},
     {"id":{"name":"sFireball","path":"sprites/sFireball/sFireball.yy",},"order":4,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
+    {"id":{"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},"order":5,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oFireCone","path":"objects/oFireCone/oFireCone.yy",},"order":2,},
@@ -28,6 +31,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
