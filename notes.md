@@ -14,3 +14,20 @@ Ideas:
 - player does not get to decide when to attack, but it happens automatically on a random timer every X seconds, like a bomb, chemicals, fire breathing or whatever, you are cursed maybe?
 - alchemy tower? Open up with a potion in the middle of the room "Drink the option!", And then you start breathing fire periodically + tower/ground starts shaking, because alchemist got mad or something idk :P
 	- all the power ups are potions too, give you more health, higher movement speed, maybe more DMG, change fire shape maybe
+	
+	
+
+ToDos:
+- Attack always points at mouse
+- Type of attack/effect randomizes:
+	- Have a little indicator/icon for everything, which also shows where you are aiming!
+	
+	Types
+	- Fire projectile
+	- Breath fire cone
+	- Dash forward
+	- Heal what is under your mouse cursor?
+	- etc.
+
+- UI for Health, Attackpower, Movementspeed , just simple icon for everything + number?
+- Enemy attacks: melee on collision, projectile firers etc.
