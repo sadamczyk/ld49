@@ -21,23 +21,21 @@ ToDos:
 - Enable player to win, when last room is finished, maybe just add a trigger?
 - Add invincibility during bull charge, and stun + dmg enemies close to collision point
 - UI for Health, Attackpower, Movementspeed, level you are on, upcoming ability, just simple icon for everything + number?
-
-- Add different enemy types
-  - Ranged attackers
-  - Stronger/charging Melee
-  - Bosses
-  - Add melee swipes, instead of them just running into you?
 - Power ups / pickups:
 	- Healthpack (+ no max health, so it just always adds to your healthpool?)
 	- Make attacks deal more dmg
 	- Increase size of projectiles, firecone, stun range of bull charge, health healed etc? seperate power ups for each ability tho
 	- Movementspeed+?
-
 - Music + sound effects!
+- Add different enemy types
+  - Stronger/charging Melee
+  - Bosses
 
 Low Prio / way later:
 - Give characters collision boxes, so they dont overlap/stack anymore?
 - Polish abilities: Have a little indicator/icon for everything, which also shows where you are aiming etc.!
 	- like an arrow/symbol that slowly fills up from transparent to opaque depending on timer
+	- give bull charge a little fire trail to stick with fire theme?
 - instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
 	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
+- Add melee swipes, instead of enemies just running into you?

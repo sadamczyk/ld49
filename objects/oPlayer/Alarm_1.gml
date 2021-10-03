@@ -1,7 +1,7 @@
 /// @description Ability timer
 
 // Random "unstable" abilities
-//ability = 2; // for debugging, remove!
+ability = 2; // for debugging, remove!
 switch(ability) {
 	// These could also only be unlocked after getting enough powerups/beating enough levels?
 	case 0: // Shoot projectile
@@ -18,7 +18,10 @@ switch(ability) {
 	case 2: // Bull charge large distance / until wall? -> stun self if no enemy hit?
 		direction = point_direction(x, y, mouse_x, mouse_y);
 		speed = 10;
-		is_bull_charging = true;
+		state = PlayerStateBullCharge;
+		resetInvulnerability();
+		alarm[0] = 999999; // Invul, Collision will set the time correctly
+		image_blend = c_red;
 		
 		break;
 	case 3: // Heal target under mousepointer, enemies too!
