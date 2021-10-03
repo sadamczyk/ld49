@@ -33,6 +33,8 @@ switch(ability) {
 			obj.hp += 1;
 		}
 		ds_list_destroy(_list);
+		
+		show_debug_message("HEAL!"); // TODO: LET PLAYER KNOW THIS IS HAPPENING!
 		break;
 	/*
 	More ideas if enough time:

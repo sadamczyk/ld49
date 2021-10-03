@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 575,
+  "bbox_right": 319,
   "bbox_top": 0,
-  "bbox_bottom": 575,
+  "bbox_bottom": 319,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 576,
-  "height": 576,
+  "width": 320,
+  "height": 320,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0eb6560b-05f6-4e34-ace2-ff2f34f12fd4","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0eb6560b-05f6-4e34-ace2-ff2f34f12fd4","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":{"name":"c887eccb-ea17-43a5-ae6a-19f831ea0d60","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"0eb6560b-05f6-4e34-ace2-ff2f34f12fd4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7c5b2906-bd89-47e3-a080-f6fae69d5794","path":"sprites/sWinScreen/sWinScreen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c5b2906-bd89-47e3-a080-f6fae69d5794","path":"sprites/sWinScreen/sWinScreen.yy",},"LayerId":{"name":"8d365747-e2d1-494b-9313-3342ecda7ad3","path":"sprites/sWinScreen/sWinScreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWinScreen","path":"sprites/sWinScreen/sWinScreen.yy",},"resourceVersion":"1.0","name":"7c5b2906-bd89-47e3-a080-f6fae69d5794","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
+    "spriteId": {"name":"sWinScreen","path":"sprites/sWinScreen/sWinScreen.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"017c7256-b136-4e81-af06-7a4c6e90ce82","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0eb6560b-05f6-4e34-ace2-ff2f34f12fd4","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4b82cb43-c2a4-407b-bdd3-91bb167cb725","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c5b2906-bd89-47e3-a080-f6fae69d5794","path":"sprites/sWinScreen/sWinScreen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 288,
-    "yorigin": 288,
+    "xorigin": 160,
+    "yorigin": 160,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
+    "parent": {"name":"sWinScreen","path":"sprites/sWinScreen/sWinScreen.yy",},
     "resourceVersion": "1.3",
-    "name": "sGameOver",
+    "name": "sWinScreen",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c887eccb-ea17-43a5-ae6a-19f831ea0d60","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d365747-e2d1-494b-9313-3342ecda7ad3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGameOver",
+  "name": "sWinScreen",
   "tags": [],
   "resourceType": "GMSprite",
 }

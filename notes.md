@@ -16,26 +16,30 @@ Ideas:
 	
 
 ToDos:
-- Build 3-4 simple levels
-- Move to next room, when all enemies are dead
-- Enable player to win, when last room is finished, maybe just add a trigger?
 - UI for Health, Attackpower, Movementspeed, level you are on, upcoming ability, just simple icon for everything + number?
 - Power ups / pickups:
 	- Healthpack (+ no max health, so it just always adds to your healthpool?)
 	- Make attacks deal more dmg
 	- Increase size of projectiles, firecone, stun range of bull charge, health healed etc? seperate power ups for each ability tho
 	- Movementspeed+?
+- Add sprite for the collision walls
+- Make actual levels!
+- Make animation or something for the heal, currently no idea its happening
 - Music + sound effects!
 - Stun enemies, that were hit by bullcharge
 - Add different enemy types
   - Stronger/charging Melee
   - Bosses
+- Add pause at beginning of new level + ability to pause game through pressing P, if already there!
 
 Low Prio / way later:
+- Prevent vibrating issue / enemies getting stuck
+	- disincentivize players just sitting behind walls
 - Give characters collision boxes, so they dont overlap/stack anymore?
 - Polish abilities: Have a little indicator/icon for everything, which also shows where you are aiming etc.!
 	- like an arrow/symbol that slowly fills up from transparent to opaque depending on timer
 	- give bull charge a little fire trail to stick with fire theme?
 - instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
 	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
+- Enemies will sometimes "jump" through the collision boxes, likely because of the way collisions are handled :/
 - Add melee swipes, instead of enemies just running into you?
