@@ -1,7 +1,7 @@
 /// @description Ability timer
 
 // Random "unstable" abilities
-ability = 2; // for debugging, remove!
+// ability = 2; // for debugging, remove!
 switch(ability) {
 	// These could also only be unlocked after getting enough powerups/beating enough levels?
 	case 0: // Shoot projectile

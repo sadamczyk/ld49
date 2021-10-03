@@ -19,7 +19,6 @@ ToDos:
 - Build 3-4 simple levels
 - Move to next room, when all enemies are dead
 - Enable player to win, when last room is finished, maybe just add a trigger?
-- Add invincibility during bull charge, and stun + dmg enemies close to collision point
 - UI for Health, Attackpower, Movementspeed, level you are on, upcoming ability, just simple icon for everything + number?
 - Power ups / pickups:
 	- Healthpack (+ no max health, so it just always adds to your healthpool?)
@@ -27,6 +26,7 @@ ToDos:
 	- Increase size of projectiles, firecone, stun range of bull charge, health healed etc? seperate power ups for each ability tho
 	- Movementspeed+?
 - Music + sound effects!
+- Stun enemies, that were hit by bullcharge
 - Add different enemy types
   - Stronger/charging Melee
   - Bosses
