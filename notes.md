@@ -1,9 +1,7 @@
 # Ludum Dare 49 - Theme: Unstable - Notes
 
-General:
-- Top-down 2D actiony Zelda-type game again?
-
 Ideas:
+- Top-down 2D actiony Zelda-type game again?
 - insanity? meter that gradually goes up, and bad stuff happens, once it becomes full?
 	- like losing hitpoints, weird screen effects, slowdown, enemy "fakes" duplicating, that don't do damage, but confuse, worsened vision etc.
 - movement is "unstable" in some way? balancing over a bridge, winds pushing the character etc?
@@ -18,24 +16,19 @@ Ideas:
 	
 
 ToDos:
-- Type of attack/effect randomizes:
-	- Have a little indicator/icon for everything, which also shows where you are aiming!
-	
-	Types
-	- Fire projectile
-	- Breath fire cone
-	- Dash forward
-	- Heal what is under your mouse cursor?
-	- etc.
-
-- UI for Health, Attackpower, Movementspeed , just simple icon for everything + number?
+- Polish abilities: Have a little indicator/icon for everything, which also shows where you are aiming etc.!
+- UI for Health, Attackpower, Movementspeed, level you are on, just simple icon for everything + number?
 - Add different enemy types
   - Ranged attackers
   - Stronger/charging Melee
   - Bosses
   - Add melee swipes, instead of them just running into you?
-
 - Give characters collision boxes, so they dont overlap/stack anymore?
-
 - instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
 	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
+- Power ups / pickups:
+	- Healthpack (+ no max health, so it just always adds to your healthpool?)
+	- Make attacks deal more dmg
+	- Increase size of projectiles, firecone, stun range of bull charge, health healed etc? seperate power ups for each ability tho
+	- Movementspeed+?
+	

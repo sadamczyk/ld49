@@ -1,7 +1,7 @@
 /// @description Ability timer
 
 // Random "unstable" abilities
-ability = 3;
+ability = 2; // for debugging, remove!
 switch(ability) {
 	// These could also only be unlocked after getting enough powerups/beating enough levels?
 	case 0: // Shoot projectile
@@ -42,5 +42,5 @@ switch(ability) {
 	*/
 }
 
-ability = irandom_range(0, 5); // Set next ability
-alarm[1] = irandom_range(1, 4) * 60; // Reset the timer
+ability = irandom_range(0, 3); // Set next ability
+alarm[1] = irandom_range(1, 4) * FRAME_RATE; // Reset the timer
