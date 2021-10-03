@@ -4,7 +4,7 @@ function PlayerStateBullCharge(){
 		
 		// Stun player
 		state = PlayerStateStunned;
-		alarm[2] = 2 * FRAME_RATE;
+		alarm[2] = 1.5 * FRAME_RATE;
 		alarm[0] = 1; // End invulnerability, but still run Alarm 0 scripts
 	}
 }

@@ -1,5 +1,5 @@
 with (other) {
-	hp--;	
+	hurtPlayer();
 }
 
 instance_destroy();

@@ -46,4 +46,4 @@ switch(ability) {
 }
 
 ability = irandom_range(0, 3); // Set next ability
-alarm[1] = irandom_range(1, 4) * FRAME_RATE; // Reset the timer
+alarm[1] = irandom_range(2, 5) * FRAME_RATE; // Reset the timer
