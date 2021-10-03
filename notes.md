@@ -16,19 +16,28 @@ Ideas:
 	
 
 ToDos:
-- Polish abilities: Have a little indicator/icon for everything, which also shows where you are aiming etc.!
-- UI for Health, Attackpower, Movementspeed, level you are on, just simple icon for everything + number?
+- Build 3-4 simple levels
+- Move to next room, when all enemies are dead
+- Enable player to win, when last room is finished, maybe just add a trigger?
+- Add invincibility during bull charge, and stun + dmg enemies close to collision point
+- UI for Health, Attackpower, Movementspeed, level you are on, upcoming ability, just simple icon for everything + number?
+
 - Add different enemy types
   - Ranged attackers
   - Stronger/charging Melee
   - Bosses
   - Add melee swipes, instead of them just running into you?
-- Give characters collision boxes, so they dont overlap/stack anymore?
-- instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
-	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
 - Power ups / pickups:
 	- Healthpack (+ no max health, so it just always adds to your healthpool?)
 	- Make attacks deal more dmg
 	- Increase size of projectiles, firecone, stun range of bull charge, health healed etc? seperate power ups for each ability tho
 	- Movementspeed+?
-	
+
+- Music + sound effects!
+
+Low Prio / way later:
+- Give characters collision boxes, so they dont overlap/stack anymore?
+- Polish abilities: Have a little indicator/icon for everything, which also shows where you are aiming etc.!
+	- like an arrow/symbol that slowly fills up from transparent to opaque depending on timer
+- instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
+	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
