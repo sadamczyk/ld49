@@ -16,10 +16,6 @@ Ideas:
 	
 
 ToDos:
-- Simple startmenu screen with explanation for the game and "Press enter to start!"
-- Upload onto itch.io
-- Write texts for entry
-
 - Add aiming circle (especially for the heal, with green tint then? otherwise red or so)
 - Music + sound effects!
 - Power ups / pickups:
