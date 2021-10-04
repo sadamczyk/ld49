@@ -11,3 +11,9 @@ function hurtPlayer() {
 		is_flashing = true;
 	}
 }
+
+function hurtEnemy(dmg) {
+	hp -= dmg;
+	alarm[11] = 0.5 * FRAME_RATE;
+	image_blend = c_gray;
+}

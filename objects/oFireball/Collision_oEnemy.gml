@@ -1,5 +1,5 @@
 with (other) {
-	hp--;	
+	hurtEnemy(other.dmg);
 }
 
 instance_destroy();

@@ -8,8 +8,17 @@ if (state == PlayerStateBullCharge) {
 	var _num = collision_circle_list(x, y, bull_charge_radius, oEnemy, false, true, _list, false);
 	
 	for (var i = 0; i < _num; ++i) {
-		var obj = _list[| i];
-		obj.hp -= bull_charge_dmg;
+		with (_list[| i]) {
+			hurtEnemy(other.bull_charge_dmg);
+			
+			// Stun enemy
+			if (self != oEnemyBoss1) {
+				image_blend = c_teal;
+				alarm[11] = other.bull_charge_stun_duration;
+				alarm[2] = other.bull_charge_stun_duration;
+				speed = 0;
+			}
+		}
 	}
 	ds_list_destroy(_list);
 }
