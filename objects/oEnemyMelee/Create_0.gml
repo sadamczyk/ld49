@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-is_stunned = false;
+alarm[2] = 2 * FRAME_RATE;

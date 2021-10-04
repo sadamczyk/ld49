@@ -18,10 +18,8 @@ Ideas:
 ToDos:
 - Make actual levels!
 	- Add sprite for the collision walls -> water?
+- Add aiming circle (especially for the heal, with green tint then? otherwise red or so)
 - Music + sound effects!
-- Stun enemies, that were hit by bullcharge
-	- Add stun icon above objects, that are hit
-- Add pause at beginning of new level + ability to pause game through pressing P, if already there!
 - Power ups / pickups:
 	- Healthpack (+ no max health, so it just always adds to your healthpool?)
 	- Make attacks deal more dmg
@@ -34,6 +32,7 @@ Low Prio / way later:
 - Prevent vibrating issue / enemies getting stuck
 	- disincentivize players just sitting behind walls
 - Give characters collision boxes, so they dont overlap/stack anymore?
+- Add pause
 - instead of potions just use a staff at the beginning, and some kind of random gemstones/pickups for the power ups
 	- might be easier to find than nice potions, and makes more sense, why picking up a sacred staff might make the building fall, than a random potion?
 - Enemies will sometimes "jump" through the collision boxes, likely because of the way collisions are handled :/

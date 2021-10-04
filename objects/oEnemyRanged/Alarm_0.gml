@@ -1,7 +1,7 @@
 /// @description Shoot projectile
 
 if (alarm[2] > 0) {
-	alarm[0] = alarm[2] + 1;
+	alarm[0] = max(alarm[2] + 1, alarm[0]);
 	exit;
 }
 	
